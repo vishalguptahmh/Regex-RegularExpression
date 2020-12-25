@@ -18,7 +18,7 @@ $                | End of a String
 ---              | ---
 []               | Matches Characters in brackets
 [^ ]             | Matches Characters NOT in brackets
-|                | Either Or
+\|                | Either Or
 ( )              | Group
 
 
