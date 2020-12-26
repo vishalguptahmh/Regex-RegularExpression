@@ -104,3 +104,13 @@ com
 io
 ```
 
+#### PAN verification (Permanent Account Number)
+- The length of the PAN number is always 10
+- Each char is an uppercase letter,
+- ABCDS1234Y (<char><char><char><char><char><digit><digit><digit><digit><char>)
+```
+  [A-Z]{5}[0-9]{4}[A-Z]
+  
+```
+  
+
